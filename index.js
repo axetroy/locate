@@ -14,8 +14,7 @@ http
       req.connection.remoteAddress ||
       req.socket.remoteAddress ||
       req.connection.socket.remoteAddress;
-    console.log("header", req.headers);
-    console.log("ip", ip);
+
     if (pathname === "/favicon.ico") {
       res.writeHead(404);
       res.end();
