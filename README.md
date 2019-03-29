@@ -6,5 +6,5 @@ curl http://locate.axetroy.xyz
 wget -qO- http://locate.axetroy.xyz
 
 # 获取指定的IP定位
-curl http://locate.axetroy.xyz?ip=192.168.0.0
+curl http://locate.axetroy.xyz?ip=192.168.0.1
 ```
