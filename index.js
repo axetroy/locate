@@ -20,6 +20,9 @@ http
       res.end();
       return;
     }
+
+    console.log(`get location of ${ip}`);
+
     axios
       .get("http://api.map.baidu.com/location/ip", {
         params: {
