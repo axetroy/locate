@@ -10,7 +10,7 @@ http
     const { query, pathname } = url.parse(req.url, true);
     const ip =
       query.ip ||
-      (req.headers["x-forwarded-for"] || "").split(",").pop() ||
+      (req.headers["x-forwarded-for"] || "").split(",").shift() ||
       req.connection.remoteAddress ||
       req.socket.remoteAddress ||
       req.connection.socket.remoteAddress;
