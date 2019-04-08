@@ -1,5 +1,7 @@
 ## 获取您的 IP 地理位置定位
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/locate.svg)](https://greenkeeper.io/)
+
 ```bash
 # 获取你自己的IP定位
 curl http://locate.axetroy.xyz
