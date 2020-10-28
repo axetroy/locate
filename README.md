@@ -2,11 +2,11 @@
 
 ```bash
 # 获取你自己的IP定位
-curl http://locate.axetroy.xyz
-wget -qO- http://locate.axetroy.xyz
+curl https://locate.axetroy.xyz
+wget -qO- https://locate.axetroy.xyz
 
 # 获取指定的IP定位
-curl http://locate.axetroy.xyz?ip=192.168.0.1
+curl https://locate.axetroy.xyz?ip=192.168.0.1
 ```
 
 ## License
